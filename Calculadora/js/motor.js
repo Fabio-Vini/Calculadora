@@ -17,6 +17,7 @@ function back(){
     document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length -1);
 }
 
+//Usando o 'EVAL' automaticamente serão reconhecidas as operações de acordo com os simbolos e será feito o cálculo
 function calcular(){
     var resultado = document.getElementById('resultado').innerHTML;
     if(resultado){
