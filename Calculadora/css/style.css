@@ -26,11 +26,12 @@
     width: 222px;
     height: 30px;
     margin: 5px;
-    font-size: 25px;
+    font-size: 20px;
     padding: 5px;
     text-align: right;
     color: #000;
     background-color: #fff;
+    border-radius: 30px 30px 30px 30px;
 }
 
 .botao{
@@ -42,8 +43,17 @@
     color: #fff;
     background-color: rgb(31, 31, 31);
     border: none;
+    border-radius: 30px 30px 30px 30px;
 }
 
 .botao:hover{
     background-color: #000;
+}
+
+.item-orange{
+    background-color: #ea7a39;
+}
+
+.item-gray{
+    background-color: #515050;
 }
